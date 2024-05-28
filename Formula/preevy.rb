@@ -3,24 +3,24 @@
 class Preevy < Formula
   desc "Quickly deploy preview environments to your cloud provider or Kubernetes cluster"
   homepage "https://preevy.dev"
-  url "https://github.com/livecycle/preevy/releases/download/v0.0.63/preevy-v0.0.63-darwin-x64.tar.gz"
-  sha256 "b0c3f53de8789f20f0e49f515bcbb6e4a7958cd0fe95f3d7b9173f7929d123cf"
+  url "https://github.com/livecycle/preevy/releases/download/v0.0.64/preevy-v0.0.64-darwin-x64.tar.gz"
+  sha256 "232752fe092a04ef1c7e30e854b2b619d1b9105573bf04491714c0461b578857"
   license "Apache-2.0"
-  version "0.0.63"
+  version "0.0.64"
 
   on_macos do
     on_arm do
-      url "https://github.com/livecycle/preevy/releases/download/v0.0.63/preevy-v0.0.63-darwin-arm64.tar.gz"
-      sha256 "a9addf18b501709df8a8804491dbaa0ade775ba67ba9ea2b43cda940aea63e9f"
+      url "https://github.com/livecycle/preevy/releases/download/v0.0.64/preevy-v0.0.64-darwin-arm64.tar.gz"
+      sha256 "5b90b19bfbea248a80027297e1c5aa62aba220c499c2518bcaab9d401ffeaa06"
     end
   end
 
   on_linux do
-    url "https://github.com/livecycle/preevy/releases/download/v0.0.63/preevy-v0.0.63-linux-x64.tar.gz"
-    sha256 "2774ee73d551f20f4f628e87c411d37c904dd64b1b0ae832b6785fa0c42f27a3"
+    url "https://github.com/livecycle/preevy/releases/download/v0.0.64/preevy-v0.0.64-linux-x64.tar.gz"
+    sha256 "bb3114079aed2262b6413f0bd69434f48521e2377dfda57654e27b0a66dce907"
     on_arm do
-      url "https://github.com/livecycle/preevy/releases/download/v0.0.63/preevy-v0.0.63-linux-arm64.tar.gz"
-      sha256 "7cf753a98b9e8a67655288b85fecc9e4cb98f906650026a2a3f0fd973051e926"
+      url "https://github.com/livecycle/preevy/releases/download/v0.0.64/preevy-v0.0.64-linux-arm64.tar.gz"
+      sha256 "c0d11a1fd0f8847981184116ea43b4771b3174398f3114092197bbb865e14e98"
     end
   end
 
